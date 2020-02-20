@@ -123,7 +123,7 @@ width: 100%;
 
     background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
-    height: 500px;
+    height: 550px;
     background-position:180deg, right right;
 }
 
@@ -133,4 +133,58 @@ width: 100%;
         padding-bottom: 10px;
 
     }
+
+    /* Footer Area*/
+
+    .footer-area{
+        background-image: url(images/footer-bg.png);
+        background-repeat: no-repeat;
+        height: 500px;
+    }
+    .footer-area h1{
+        font-size: 45px;
+        padding-bottom: 50px;
+    }
+
+    .footer-center{
+        text-align: center;
+    }
+  .footer-center p{
+      padding-bottom: 50px;
+  }
+  .footer-center blockquote{
+      padding-bottom: 50px;
+  }
  
+  .contact-info-box{
+
+   margin: auto;
+  width: 55%;
+  height: 35%;
+  background-color:      #EC4C7A;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 15px;
+  }
+
+  .contact-info-box p{
+      color:white;
+      align-items: center;
+      
+  }
+  #message{
+      font-size: 20px;
+      font-family: sans-serif;
+  }
+
+#email{
+    font-size: 35px;
+    color:white;
+    font-family: sans-serif;
+  }
+    
+footer{
+    margin-top: 15%;
+    text-align: center;
+    padding-bottom: 5%;
+}

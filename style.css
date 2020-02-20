@@ -14,9 +14,11 @@ body{
 .header-area{
 
     background-image: url(images/header-bg.png);
-    background-size: 100%; /* size the background image at 100% like any responsive img tag */
+    background-size: 100%; 
     background-position: top center;
     background-repeat: no-repeat;
+    height: 750px;
+    
    
 }
 .header-area h1{
@@ -27,10 +29,7 @@ body{
     
     
 }
-section{
-        
-    height: 1070px;
-}
+
 #position-head-img{
     padding-top: 10%;
     padding-right:8%;
@@ -66,5 +65,42 @@ section{
     
     
 }
+
+/* biography part */
+
+.half-width-n{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+    
+}
+.half-width-n p{
+    text-align: justify;
+    padding-right: 75px;
+}
+
+.half-width-n img{
+
+width: 100%;
+
+}
+
+.biography-area{
+
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    height: 875px;
+    
+   
+}
+#text-bibliography-area{
+
+    margin-top: 13%;
+}
+.biography-area p{
+    height: 100px;
+}
+
 
 

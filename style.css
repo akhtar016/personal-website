@@ -159,33 +159,31 @@ width: 100%;
       padding-bottom: 50px;
   }
  
-  .contact-info-box{
+    .contact-info-box{
 
-   margin: auto;
-  width: 55%;
-  height: 35%;
-  background-color:      #EC4C7A;
-  border-radius: 15px;
-  text-align: center;
-  padding-top: 15px;
-  }
-
-  .contact-info-box p{
-      color:white;
-      align-items: center;
-      
-  }
-  #message{
-      font-size: 20px;
-      font-family: sans-serif;
-  }
-
-#email{
-    font-size: 35px;
-    color:white;
+    margin: auto;
+    width: 55%;
+    height: 35%;
+    background-color:      #EC4C7A;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 15px;
     font-family: sans-serif;
-  }
-    
+    color: white;
+    }
+
+    .contact-info-box p{
+        
+        align-items: center;
+        
+    }
+    #message{
+        font-size: 20px;
+    }
+    #email{
+        font-size: 35px;
+        }
+        
 footer{
     margin-top: 15%;
     text-align: center;
